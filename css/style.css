@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+
+}
+
+/* .navegação{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    background: #91cee2;
+    transition: all 0.5s;
+}
+
+
+.navegação ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.navegação ul li a{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.navegação ul li a:hover{
+    color: white;
+}
+
+.navegação i{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.menu{
+    cursor: pointer;
+    display: none;
+}
+
+.menu .bar{
+    display:block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: black;
+    margin: 5px auto;
+    transition: all 0.2s;
+} */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.logo img{
+    width: 80px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    margin-bottom: 70px;
+}       
+
+.home-text{
+    max-width: 592px;
+}
+.home-text .text-h4{
+    margin-top: 50px;
+    font-size: 15px;
+    color: #b7d5e5;
+    margin-bottom: 10px;
+}
+.home-text .text-h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 50px;
+}
+.home-text p{
+    margin-bottom: 64px;
+}
+.home-btn{
+    padding: 15px 45px;
+    background-color: #8DF0D2;
+    color: white;
+    border-radius: 10px;
+    font-weight: 800;
+    transition: all 0.5s;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: auto;
+}
+.home-img {
+    width: auto;
+    height: 100%;
+    max-width: 900px;
+    object-fit: cover;
+    min-width: 700px;
+    object-position: bottom;
+    flex: 1;
+}

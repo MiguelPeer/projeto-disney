@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/local.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navegação">
+            <a href="#" class="logo">
+                <img src="/imagens/Logo.png" width="60" alt=""></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Resort</a></li>
+                <li class="nav-item"><a href="#">Quartos</a></li>
+                <li class="nav-item"><a href="#">Lazer</a></li>
+                <li class="nav-item"><a href="#">Local|Contact</a></li>
+                <i class='bx bx-search'></i>    
+            </ul>  
+        </nav>
+    </header>
+    <main>
+        <section class="local">
+            <div class="local-text">
+                <h1 class="text-h1">Want to talk with us?</h1>
+                <h4 class="text-h4">Leave your message! I hope your contact!</h4>
+            </div>
+        </section>
+        <h2 class="formulario"></h2>
+    
+        <form action="formulário" method="POST">
+            <label for="nome">Name:</label>
+            <input placeholder="#" type="text" id="name" name="name"><br>
+          
+            <label for="email">E-mail:</label>
+            <input placeholder="#" type="email" id="email" name="email"><br>
+    
+          <div class="tipo-mensagem">
+            <div>
+                <label for="orcamento">Orçamento</label>
+                <input id="orcamento" type="checkbox">
+            </div>
+            <div>
+                <label for="orcamento">Orçamento</label>
+                <input id="orcamento" type="checkbox">
+            </div>
+            <div>
+                <label for="orcamento">Orçamento</label>
+                <input id="orcamento" type="checkbox">
+            </div>
+          </div>
+    
+            <label for="mensagem">Message:</label>
+            <textarea placeholder="#" id="mensagem" name="mensagem"></textarea><br>
+    
+            <button type="submit">Enviar</button>
+          </form>
+    </main>
+</body>
+</html>
