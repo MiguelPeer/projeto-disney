@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,57 +9,96 @@
     <link rel="stylesheet" href="/css/reset.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav class="navegação">
             <a href="#" class="logo">
-                <img src="/imagens/Logo.png" width="60" alt=""></a>
+                <img src="/imagens/contato/Logo.png" width="60" alt=""></a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#">Resort</a></li>
-                <li class="nav-item"><a href="#">Quartos</a></li>
-                <li class="nav-item"><a href="#">Lazer</a></li>
-                <li class="nav-item"><a href="#">Local|Contact</a></li>
-                <i class='bx bx-search'></i>    
-            </ul>  
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="resort.html">Resort</a></li>
+                <li class="nav-item"><a href="./quarto.html">Quartos</a></li>
+                <li class="nav-item"><a href="./restaurante.html">Gastronomia</a></li>
+                <li class="nav-item"><a href="./lazer.html">Lazer</a></li>
+                <li class="nav-item"><a href="./contato.html">Local|Contact</a></li>
+                <i class='bx bx-search'></i>
+            </ul>
         </nav>
     </header>
     <main>
-        <section class="local">
-            <div class="local-text">
-                <h1 class="text-h1">Want to talk with us?</h1>
-                <h4 class="text-h4">Leave your message! I hope your contact!</h4>
-            </div>
-        </section>
-        <h2 class="formulario"></h2>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3511.7077576375927!2d-81.57305408492407!3d28.337444482535073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd7ec352090c0d%3A0x9d3a40dee2f84404!2s1901%20W%20Buena%20Vista%20Dr%2C%20Kissimmee%2C%20FL%2034747%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1683590074134!5m2!1spt-BR!2sbr"
+                width="100%" height="450" style="border:30px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="container">
+            <section class="local">
+                <div class="local-text">
+                    <h1 class="text-h1">Quer falar conosco?</h1>
+                    <h4 class="text-h4">Deixe sua mensagem! Espero seu contato!</h4>
+                </div>
+                <form action="formulário" method="POST">
     
-        <form action="formulário" method="POST">
-            <label for="nome">Name:</label>
-            <input placeholder="#" type="text" id="name" name="name"><br>
-          
-            <label for="email">E-mail:</label>
-            <input placeholder="#" type="email" id="email" name="email"><br>
+                    <input placeholder="Nome Completo" type="text" id="name" name="name"><br>
     
-          <div class="tipo-mensagem">
+                    <input placeholder="Seu Melhor Email" type="email" id="email" name="email"><br>
+    
+                    <div class="tipo-mensagem">
+                        <div class="selecao">
+                            <label for="orcamento">Orçamento</label>
+                            <input id="orcamento" type="checkbox">
+                        </div>
+                        <div class="selecao">
+                            <label for="orcamento">Reserva</label>
+                            <input id="orcamento" type="checkbox">
+                        </div>
+                        <div class="selecao">
+                            <label for="orcamento">Informações</label>
+                            <input id="orcamento" type="checkbox">
+                        </div>
+                    </div>
+    
+                    <textarea placeholder="Deixe aqui sua mensagem" id="mensagem" name="mensagem"></textarea><br>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+    
             <div>
-                <label for="orcamento">Orçamento</label>
-                <input id="orcamento" type="checkbox">
+                <div>
+                    <img src="/imagens/contato/pin.png" alt="" height="20px" width="20px">
+                    <div>
+        
+                        <h3>
+                            Endereço do seus sonhos
+                        </h3>
+        
+                        <p>
+                            1901 W Buena Vista Dr, Lake Buena Vista, FL 32830, Estados Unidos
+                        </p>
+        
+                    </div>
+                </div>
+                <div>
+                    <img src="/imagens/contato/telefone.png" alt="" height="20px" width="20px">
+                    <div>
+        
+                        <h3>
+                            Telefone de contato:
+                        </h3>
+        
+                        <p>
+                            +1 407-939-1936
+                        </p>
+        
+                    </div>
+                </div>
             </div>
-            <div>
-                <label for="orcamento">Orçamento</label>
-                <input id="orcamento" type="checkbox">
-            </div>
-            <div>
-                <label for="orcamento">Orçamento</label>
-                <input id="orcamento" type="checkbox">
-            </div>
-          </div>
-    
-            <label for="mensagem">Message:</label>
-            <textarea placeholder="#" id="mensagem" name="mensagem"></textarea><br>
-    
-            <button type="submit">Enviar</button>
-          </form>
+        </div>
     </main>
 </body>
+
 </html>

@@ -9,6 +9,7 @@
     width: 100%;
     background: #91cee2;
     transition: all 0.5s;
+    height: 65px;
 }
 
 
@@ -34,3 +35,75 @@
     font-size: 1.5rem;
 }
 
+.main{
+    margin-top: 75px;
+}
+
+.mapa{
+    padding: 60px;
+    border-radius: 80px;
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+.local{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.text-h1{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.text-h4{
+    font-weight: 200;
+    font-size: 18px;
+}
+
+form input[type=text], form input[type=email]{
+    border-radius: 10px;
+    width:700px;
+    height: 35px;
+    padding: 0 16px;
+    margin-top: 16px;
+}
+
+
+textarea{
+    width: 700px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tipo-mensagem{
+    display: flex;
+    justify-content: space-between;
+    max-width:700px;
+}
+
+.selecao{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  
+}
+
+.container{
+    display: flex;
+    padding: 0 60px;
+    padding-bottom: 60px;
+}
+
+form button{
+    width: 700px;
+    height: 45px;
+    background-color: rgb(5, 149, 207);
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 0;   
+}

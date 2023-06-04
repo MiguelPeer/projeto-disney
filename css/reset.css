@@ -13,4 +13,27 @@ body {
 
 button {
   cursor: pointer;
+  border: 0;
+}
+
+h1{
+  font-size: 24px;
+}
+
+p{
+font-family:'Poppins', sans-serif;
+font-style: none;
+line-height: 27px;
+text-align: justify;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.img-radius{
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  width: 500px;
+  height: 400px;
 }

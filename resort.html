@@ -16,14 +16,16 @@
         <header class="header">
           <nav class="navegação">
             <a href="#" class="logo">
-              <img src="/imagens/index/Logo.png" width="60" alt="">
+              <img src="/imagens/index/Logo.png" alt="Disney+ Logo">
             </a>
+            <!-- Navegação -->
             <ul class="nav-menu">
-                <li class="nav-item"><a href="./1index.html">Home</a></li>
-                <li class="nav-item"><a href="#">Resort</a></li>
-                <li class="nav-item"><a href="#">Quartos</a></li>
-                <li class="nav-item"><a href="#">Lazer</a></li>
-                <li class="nav-item"><a href="#">Contato|Local</a></li>
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./resort.html">Resort</a></li>
+                <li class="nav-item"><a href="./quarto.html">Quartos</a></li>
+                <li class="nav-item"><a href="./restaurante.html">Gastronomia</a></li>
+                <li class="nav-item"><a href="./lazer.html">Lazer</a></li>
+                <li class="nav-item"><a href="./contato.html">Contato|Local</a></li>
                 <i class='bx bx-search'></i>    
             </ul>
             <div class="menu">
@@ -33,20 +35,24 @@
             </div>
           </nav>
         </header>
-    
+        <!-- Primeira page -->
         <section class="content">
           <div class="info-resort">
             <h1>
-              What is Lorem Ipsum?
+              ALL STAR MOVIES RESORT.
             </h1>
             <p>
-              What is Lorem Ipsum?
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              O All-Star Movies Resort é um dos hotéis temáticos do Walt Disney World Resort, localizado em Orlando, Flórida, Estados Unidos. 
+              Ele faz parte da categoria de hotéis econômicos do complexo e é um dos três hotéis All-Star, os outros dois sendo o All-Star Music Resort e o All-Star Sports Resort.
+            </p>
+            <p>
+              Inaugurado em 1999, o All-Star Movies Resort é temático em torno do mundo do cinema, com áreas que homenageiam diferentes gêneros cinematográficos e filmes populares da Disney. Os hóspedes podem escolher entre diferentes áreas temáticas, como Fantasia, Toy Story, 101 Dálmatas, entre outras.
+            <p>
+              O resort oferece quartos confortáveis e acessíveis, além de uma variedade de comodidades para os hóspedes, como piscinas temáticas, lojas de presentes, restaurantes, áreas de recreação e transporte gratuito para os parques temáticos da Disney. O All-Star Movies Resort é uma ótima opção para famílias que desejam ficar em um hotel temático da Disney com um orçamento mais acessível.
             </p>
     
-            <button type="button">
-              Label do Botão
-            </button>
+              <a class="button"href="#explore">Conheça mais</a>
+            
           </div>
     
           <div class="image">
@@ -55,7 +61,77 @@
         </section>
       </div>
     </div>
+    <!-- Carrosel -->
+    <div class="wrapper">
+      <section class="body2">
 
+          <div class="carrosel">
+
+            <div class="slider">
+
+              <div class="slides"> 
+                <!--Radio Buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--Radio Buttons-->
+
+                <!--Slide Images-->
+                <div class="slide first">
+                    <img src="./imagens/resort/Lazer.jpg" alt="imagem 1">
+                </div>
+                <div class="slide">
+                    <img src="./imagens/resort/Lazer2.jpg" alt="imagem 2">
+                </div>
+                <div class="slide">
+                    <img src="./imagens/resort/Quartos.jpg" alt="imagem 3">
+                </div>
+                <div class="slide">
+                    <img src="./imagens/resort/restaurant.jpg" alt="imagem 4">
+                </div>
+                <!--Slide Images-->
+
+                <!--Navigation auto-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+              </div>
+
+                <div class="manual-navigation">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+                  <label for="radio4" class="manual-btn"></label>
+                </div>
+
+          </div>
+      
+      </div>
+        <!-- Segunda parte -->
+        <div class="info-carrosel">
+
+          <h1>Oque torna esse resort tão especial?</h1>
+
+            <p>
+              O Resort All Disney é uma experiência completa para toda a família. Além de oferecer diárias acessíveis, proporcionamos uma variedade de atividades e comodidades para 
+              garantir que você desfrute ao máximo da sua estadia. Relaxe em nossas piscinas temáticas, cuidadosamente projetadas para encantar tanto as crianças quanto os adultos. 
+            <p>Deixe o feiticeiro Mickey levá-lo em uma jornada de descanso e rejuvenescimento em nosso spa de classe mundial. Nosso restaurante oferece um ambiente elegante e 
+              aconchegante, com serviço excepcional e pratos deliciosos que satisfazem a todos os paladares. Nossos quartos são espaçosos e confortáveis, projetados para proporcionar 
+              um refúgio tranquilo depois de um dia repleto de aventuras e brincadeiras. Venha viver a magia da Disney em nossa hospedagem única e inesquecível.</p> 
+            </p>
+
+            <a id="explore" class="explore" href="./quarto.html">Conheça nossos quartos<img src="/imagens/resort/seta.png" alt=""></a>
+          
+          </div>  
+          
+    </section>
+    
+  </div>
     <script src="/JavaScript/script.js"></script>
   </body>
 </html>

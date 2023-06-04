@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+  }
+    
+  .main {
+    background: radial-gradient(40.71% 68.62% at 80.31% 94.29%, #127366 0%, #22BBA7 100%);
+    min-height: 100vh;
+  }
+  
+  .logo img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  
+  .navegação{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+    width: 100%;
+    transition: all 0.5s;
+    height: 75px;
+  }
+  
+  .navegação ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+  
+  .navegação ul li a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.2s;
+    border:1px solid transparent;
+  }
+  
+  .navegação ul li a:hover{
+    color: #ff810d;
+    border-bottom-color:#FF810D ;
+  }
+  
+  .navegação i{
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .titulo{
+    display: flex;
+    justify-content: center;
+    color: #F3DFA0;
+    font-size: 30px;
+    font-family: Bebas Neue;  
+  }
+
+  .info h3 {
+    color: #F3DFA0;
+    font-size: 20px;
+  }
+
+  .info p{
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .informacao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 40px;
+    background: solid;
+    padding-bottom: 40px;
+  }
+
+  .informacao h2{
+    color:#F3DFA0;
+  }
+
+  .informacao p {
+    color: #fff;
+  }
+
+  .valor {
+    font-family:Bebas Neue;
+    background-color: #F3DFA0;
+    display: block;
+    padding: 8px;
+    color: #20170E;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    width: max-content;
+}
+
+  .container-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .container-imagens {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 400px;
+  }
+
+  /* @media (max-width: 800px) {
+    .container-imagens {
+      width: 300px;
+      border: 4px solid red;
+    }
+  } */
+
+  .slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .on {
+    opacity: 1;
+  }
+
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #prev-button{
+    transform: rotate(180deg);
+  }
+
+  .preferencial{
+    display: flex;
+    gap:40px;
+    flex-direction: column;
+  }
+
+  .explore{
+    margin-top: 20px;
+    padding: 15px 1px;
+    color: #fff;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    font-weight: bold; 
+  }
+  
+  a.explore:hover{
+    filter: brightness(0.9);
+    transition: all 0.2s ease;
+    margin-left: 10px;
+  }
+  
